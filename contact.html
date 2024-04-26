@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Sweet Cherry Resort Home | Contact</title>
+        <meta name="author" content="Leonardo Martinez">
+        <meta name="description" content="Final Project contact page">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon(1).ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon(1).ico" type="image/x-icon">
+
+        <!-- Google Fonts Links -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Sweet Cherry Resort</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#placeholder">Accommodations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/swiss-valley.jpg" alt="" width="1440px" height="560px">
+        </header>
+
+        <main>
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *</p>
+            <img id="imag" src="images/swiss-sunset.jpg" alt="The swiss village near a lake surrounded by alpine trees as the sun sets behind the mountain range behind it." width="710" height="270">
+
+            <section id="form">
+                <form>
+                    <label for="my-name">Name*</label>
+                    <input type="text" name="my-name" id="my-name" required>
+
+                    <label for="my-email">My Email*</label>
+                    <input type="email" name="my-email" id="my-email" required>
+
+                    <label for="my-phone">My Phone*</label>
+                    <input type="tel" name="my-phone" id="my-phone" required>
+
+                    <fieldset>
+                        <legend>Preferred Contact Method</legend>
+
+                        <input type="radio" name="contact-pref" id="pref-email" checked>
+                        <label for="pref-email">Email</label>
+
+                        <input type="radio" name="contact-pref" id="pref-phone">
+                        <label for="pref-phone">Phone</label>
+                    </fieldset>
+                    
+                    <label for="my-comments">Comments*</label>
+                    <textarea name="my-comments" id="my-comments" required></textarea>
+
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>Copyright ©2023 - Sweet Cherry Resort</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
